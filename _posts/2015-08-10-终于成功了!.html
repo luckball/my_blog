@@ -3,7 +3,10 @@ layout:default
 title: hello
 ---
 <h2>{{ page.title }}</h2>
-    终于弄成功了
+    终于弄成功了<br>
+    <button onclick="hello()">点我</button>
 <script>
-document.write(Date());
+  function hello(){
+   alert("hello")
+  }
 </script>
