@@ -2,6 +2,7 @@
  layout: default
  title: 我的Blog
 ---
+ <body style = "backgroud-color:yellow;">
  <h2>{{ page.title }}</h2>
  <p>最新文章</p>
  <ul>
@@ -9,3 +10,4 @@
 　　　<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
 　　　　{% endfor %}
 　</ul>
+ </body>
